@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector("button[type=submit]"),t=document.querySelector("input[name=delay]"),n=(document.querySelector("input[name=step]"),document.querySelector("input[name=amount]"));e.addEventListener("click",(function(e){e.preventDefault();for(var o=0;o<n.value;o++)setInterval((c=o,u=t.value,void(Math.random()>.3?console.log("✅ Fulfilled promise ".concat(c," in ").concat(u,"ms")):console.log("❌ Rejected promise ".concat(c," in ").concat(u,"ms")))),t.value);var c,u}))}();
+//# sourceMappingURL=03-promises.7e9ef882.js.map
